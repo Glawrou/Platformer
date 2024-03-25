@@ -14,16 +14,28 @@ public class Player : MonoBehaviour
     {
         _inputObserver.OnMove += InputMoveHandler;
         _inputObserver.OnJump += InputJumpHandler;
+        _inputObserver.OnAttack += InputAttackHandler;
+        _inputObserver.OnSit += InputSitHandler;
     }
 
-    public void InputMoveHandler(Vector2 move)
+    private void InputMoveHandler(Vector2 move)
     {
         _playerAnimation.SetRun(move != Vector2.zero);
-        _playerAnimation.SetFlip(move.x);
+        _playerMove.Move(move.x);
     }
 
-    public void InputJumpHandler()
+    private void InputJumpHandler()
     {
-        
+        _playerMove.Jump();
+    }
+
+    private void InputAttackHandler()
+    {
+        _playerAnimation.Attack();
+    }
+
+    private void InputSitHandler()
+    {
+        _playerMove.Sit();
     }
 }

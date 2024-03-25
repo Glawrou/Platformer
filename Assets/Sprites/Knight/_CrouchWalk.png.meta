@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: _CrouchWalk_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90b66b299c619043917c481788e9014
+      internalID: 1821339819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccadde31556c62046b8bf1e5d23a0a1d
+      internalID: -864652342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f4e6779963ef74e918b6e5671fad53
+      internalID: 1566882470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ff68458298ec4993bbaa5d58847a6
+      internalID: 1938169304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934598391fe81024594cb91b97da325e
+      internalID: 230523940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4fa04714009b243976888e515cf3b9
+      internalID: 372586437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_6
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a930ba986cefb4ea507cf467c8b6b9
+      internalID: 494197814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchWalk_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080c857af6a84c41b64663f537ac82a
+      internalID: -1714852747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _CrouchWalk_0: 1821339819
+      _CrouchWalk_1: -864652342
+      _CrouchWalk_2: 1566882470
+      _CrouchWalk_3: 1938169304
+      _CrouchWalk_4: 230523940
+      _CrouchWalk_5: 372586437
+      _CrouchWalk_6: 494197814
+      _CrouchWalk_7: -1714852747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

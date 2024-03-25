@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: _CrouchAttack_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bab4a1b70b69440b16e03fe2e15291
+      internalID: 476025642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchAttack_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 79
+        height: 26
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e6b3a3b0b2c64ab17e3e7cfcb7a51
+      internalID: 1153643614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchAttack_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 51
+        height: 26
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6916629cde098294087735f7962e1f58
+      internalID: 1652761346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _CrouchAttack_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 48
+        height: 26
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cbe0448baaf3942853e86a0a5218ea
+      internalID: 1076241625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _CrouchAttack_0: 476025642
+      _CrouchAttack_1: 1153643614
+      _CrouchAttack_2: 1652761346
+      _CrouchAttack_3: 1076241625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: _AttackNoMovement_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911776d74bc44d84cadb80b4b8b9babd
+      internalID: 1966037078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _AttackNoMovement_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5725a4146ac0e84085542824bde889b
+      internalID: 1765690235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _AttackNoMovement_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 63
+        height: 35
+      alignment: 9
+      pivot: {x: 0.22, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf81b1cf5fefbd442b2a784000c26361
+      internalID: 2061836848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _AttackNoMovement_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 57
+        height: 34
+      alignment: 9
+      pivot: {x: 0.22, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfab22c3a30e5e44cbfa13067239cf14
+      internalID: -744465320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _AttackNoMovement_0: 1966037078
+      _AttackNoMovement_1: 1765690235
+      _AttackNoMovement_2: 2061836848
+      _AttackNoMovement_3: -744465320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
