@@ -53,3 +53,6 @@ TagManager:
   - name: Game_Decoration
     uniqueID: 1957223055
     locked: 0
+  - name: UI_Game
+    uniqueID: 542218381
+    locked: 0
