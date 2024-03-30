@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
         _inputObserver.OnSit += InputSitHandler;
     }
 
+    public void SetWaterState(bool isWater) => _playerMove.SetWater(isWater);
+
     private void InputMoveHandler(Vector2 move)
     {
         _playerAnimation.SetRun(move != Vector2.zero);

@@ -13,6 +13,7 @@ public class PlayerMove : MonoBehaviour
     private float _moveX;
     private bool _isJump;
     private bool _isSit;
+    private bool _isWoter;
 
     public void Move(float moveX)
     {
@@ -30,9 +31,14 @@ public class PlayerMove : MonoBehaviour
         SetSit(!_isSit);
     }
 
+    public void SetWater(bool value)
+    {
+        _isWoter = value;
+    }
+
     private void Update()
     {
-        _controller2D.Move(_moveX * _speed * Time.fixedDeltaTime, _isSit, _isJump);
+        _controller2D.Move(_moveX * _speed * Time.fixedDeltaTime, _isSit, _isWoter, _isJump);
         _isJump = false;
     }
 
